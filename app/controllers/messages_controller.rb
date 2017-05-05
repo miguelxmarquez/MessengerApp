@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
 
-	del index
+	def index
 		@messages = Message.all
 	end
 
